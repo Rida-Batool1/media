@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <STYle>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(243, 229, 211);
+            
+}
+        
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        h2 {
+            border: 2px solid red;
+            display: inline;
+        }
+
+        iframe {
+            height:600px;
+            width: 700px;
+        }
+        table,th,td{
+            border: 2px solid black;
+            font-size: 40px;
+        }
+    </STYle>
+</head>
+
+<body>
+    <div class="mydiv">
+        <h1>Pakistan Map</h1>
+        <h2>FLOOD AFFECTED AREAS</h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <img src="https://www.openaccessgovernment.org/wp-content/uploads/2022/09/skynews-forensics-map-pakistan_5882260.jpg"
+            alt="pakistani map" usemap="#pak_map">
+        
+        <map name="pak_map" style="text-align: center;">
+            <area target="_blank" shape="rect"
+                href="https://reliefweb.int/report/pakistan/rapid-need-assessment-flood-emergency-balochistan-sind-28th-aug-2022"
+                coords="244,315,361,346" alt="balochistan" title="Balochistan">
+            <area shape="rect" coords="308,417,356,431"
+                href="https://reliefweb.int/report/pakistan/pakistan-2022-monsoon-floods-situation-report-no-5-9-september-2022"
+                alt="Sindh" title="sindh">
+            <area shape="rect" coords="476,257,540,275"
+                href="https://reliefweb.int/report/pakistan/pakistan-2022-monsoon-floods-situation-report-no-04-2-september-2022"
+                alt="Punjab" title="Punjab">
+            <area shape="rect" coords="535,123,608,155"
+                href="https://reliefweb.int/map/pakistan/pakistan-floods-reference-map-azad-kashmir-31-aug-2022"
+                alt="azad_kashmir" title="Azad_Kashmir">
+            <area shape="rect" coords="443,83,568,120" href="https://www.dawn.com/news/1708450" alt="KPK" title="KPK">
+            <area shape="rect" coords="585,45,669,77"
+                href="https://reliefweb.int/report/pakistan/acaps-briefing-note-pakistan-floods-31-august-2022" alt="GB"
+                title="Gilgit_Baltistan">
+        </map>
+    </div>
+        <table>
+        <thead>
+            <tr>
+                <th>Affected Areas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Balochistan</td>
+            </tr>
+            <tr>
+                <td>Sindh</td>
+            </tr>
+            <tr>
+                <td>Azad_Kashmir</td>
+            </tr>
+            <tr>
+                <td>KPK</td>
+            </tr>
+            <tr>
+                <td>Gilgit-Baltistan</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <iframe src="index.html" title="My Web-Page"></iframe>
+    
+</body>
+
+</html>
